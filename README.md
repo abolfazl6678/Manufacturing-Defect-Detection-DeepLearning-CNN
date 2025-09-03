@@ -5,16 +5,15 @@ Deep learning project using Convolutional Neural Networks (CNNs) to automate def
 
 
 ## Project Overview
-Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is **time-consuming, inconsistent, and costly**.  
+Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly.  
 
 In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products. The goal is to build an AI-powered system that can distinguish between **defective** and **non-defective** parts using image data.
 
 ---
 
 ## Problem Statement
-> **Given product images from the manufacturing process, classify whether the product is defective or defect-free.**
-
-This is formulated as a **binary image classification problem**.
+- **Given product images from the manufacturing process, classify whether the product is defective or defect-free.**
+- This problem is formulated as a **binary image classification problem**.
 
 ---
 

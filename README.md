@@ -1,33 +1,47 @@
 # Manufacturing-Defect-Detection-DeepLearning-CNN
-Deep learning project using Convolutional Neural Networks (CNNs) to automate defect detection in manufacturing products, improving quality control and reducing costs.
-
-
-
+In this project, a deep learning model using Convolutional Neural Networks (CNNs) is built to automate defect detection in products manufactured by casting. It improves quality control and redues costs. Casting Product Defect Dataset from Kaggle is used.
 
 ## Project Overview
-Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly.  
-
-In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products. The goal is to build an AI-powered system that can distinguish between **defective** and **non-defective** parts using image data.
+Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly. In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products. The goal is to build an AI-powered system that can distinguish between **defective** and **non-defective** parts using image data.
 
 ---
 
-## Problem Statement
+## Problem Statement ?? 
 - **Given product images from the manufacturing process, classify whether the product is defective or defect-free.**
 - This problem is formulated as a **binary image classification problem**.
 
 ---
 
-## 📂 Dataset
-Dataset options:  
-- [Casting Product Defect Dataset (Kaggle)](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product)  
-- [NEU Surface Defect Database](https://www.kaggle.com/datasets/kaustubhb999/timber-defects-dataset)  
-- [MVTec Anomaly Detection Dataset](https://www.mvtec.com/company/research/datasets/mvtec-ad/)  
+## Tools & Techniques ???
 
-Each dataset contains labeled images of **good** and **defective** products, ideal for training CNNs.  
+- **Programming Language:** Python
+- **Python Libraries:** Numpy, Pandas, Matplotlib, Scikit-learn, TensorFlow
+- **Tool:** Jupyter Notebook and Git/GitHub
+- **Technique:**
+  - Convolutional Neural Networks (CNN)
+
 
 ---
 
-## 🧠 Model Approach
+## Dataset & Variables??? 
+The mode is built based on dataset provided in Kaggle (see Acknowledgments section please). It consists of two 
+
+
+Each dataset contains labeled images of **good** and **defective** products, ideal for training CNNs.  
+
+
+The dataset was provided in Kaggle (see Acknowledgments section) and includes detailed of retail store inventory as a table named **retail_store_inventory** with below varaibles.
+
+
+
+
+
+
+
+
+---
+
+## Model Approach ?? 
 ### Preprocessing
 - Resize images for uniform input size  
 - Normalize pixel values  
@@ -48,7 +62,7 @@ Each dataset contains labeled images of **good** and **defective** products, ide
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics ???
 - **Accuracy** – overall correctness  
 - **Precision & Recall** – crucial for quality control (minimizing false negatives)  
 - **F1-score** – balance of precision and recall  
@@ -56,14 +70,14 @@ Each dataset contains labeled images of **good** and **defective** products, ide
 
 ---
 
-## 📊 Results (to be updated after training)
+## Results (to be updated after training) ???
 - Model accuracy and loss curves  
 - Confusion matrix and classification report  
 - Visualizations of predictions with Grad-CAM heatmaps (to explain CNN decisions)  
 
 ---
 
-## 📁 Repository Structure
+## Project Structure 
 📦 manufacturing-defect-detection-cnn
 ┣ 📂 data # dataset or download instructions
 ┣ 📂 notebooks # Jupyter notebooks
@@ -82,20 +96,20 @@ Each dataset contains labeled images of **good** and **defective** products, ide
 
 ---
 
-## 💡 Business Value
+## Business Value ??? 
 - **Automated defect detection** → faster, cheaper, and more consistent than manual inspection  
 - **Improved quality control** → reduces waste, rework, and warranty costs  
 - **Scalable AI solution** → applicable across different manufacturing lines and products  
 
 ---
 
-## 🔮 Future Work
+## Future Work ??? 
 - Extend to **multi-class classification** (different defect types)  
 - Use **transfer learning (ResNet, EfficientNet, VGG16)** for better accuracy  
 - Deploy model as an **API for real-time defect detection** in production lines  
 
 ---
 
-## 🙌 Acknowledgments
-- Dataset: Kaggle / MVTec  
-- Author: *Your Name*  
+## Acknowledgments
+- Dataset: [Casting Product Defect Dataset (Kaggle)](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product)
+- 

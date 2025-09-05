@@ -103,13 +103,12 @@ The dataset was provided in Kaggle (see Acknowledgments section) and includes de
 
 ---
 
-## Future Work ??? 
+## Future Work
 - Extend to **multi-class classification** (different defect types)  
-- Use **transfer learning (ResNet, EfficientNet, VGG16)** for better accuracy  
+- Try other deep learning methods for better accuracy  
 - Deploy model as an **API for real-time defect detection** in production lines  
 
 ---
 
 ## Acknowledgments
 - Dataset: [Casting Product Defect Dataset (Kaggle)](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product)
-- 

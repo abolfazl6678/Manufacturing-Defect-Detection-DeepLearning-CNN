@@ -1,5 +1,8 @@
 # Manufacturing-Defect-Detection-DeepLearning-CNN
+
 In this project, a deep learning model using Convolutional Neural Networks (CNNs) is built to automate defect detection in products manufactured by casting. It improves quality control and redues costs. Casting Product Defect Dataset from Kaggle is used.
+
+---
 
 ## Project Overview
 Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly. In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products. The goal is to build an AI-powered system that can distinguish between **defective** and **non-defective** parts using image data.
@@ -104,7 +107,11 @@ The dataset was provided in Kaggle (see Acknowledgments section) and includes de
 ---
 
 ## Future Work
-- Extend to **multi-class classification** (different defect types)  
+- Extend to **multi-class classification** (different defect types)
+
+---
+
+
 - Try other deep learning methods for better accuracy  
 - Deploy model as an **API for real-time defect detection** in production lines  
 
@@ -112,3 +119,12 @@ The dataset was provided in Kaggle (see Acknowledgments section) and includes de
 
 ## Acknowledgments
 - Dataset: [Casting Product Defect Dataset (Kaggle)](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product)
+
+---
+
+## Author
+
+**Abolfazl Zolfaghari**
+[Email](ab.zolfaghari.abbasghaleh) | [GitHub](https://github.com/abolfazl6678)
+
+---

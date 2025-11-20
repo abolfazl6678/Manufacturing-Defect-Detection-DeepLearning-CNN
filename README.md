@@ -84,30 +84,20 @@ The dataset was provided in Kaggle (see Acknowledgments section) and includes de
 Manufacturing-Defect-Detection-DeepLearning-CNN/
 ├── data/
 │ ├── train/
-│ │   └── def_front/       #Images containing defect 
+│ │   ├── def_front/       #Images containing defect 
 │ │   └── ok_front/        #Images with no defect
-│ ├── test/           
-│     └── def_front/       #Images containing defect
+│ └── test/           
+│     ├── def_front/       #Images containing defect
 │     └── ok_front/        #Images with no defect
 ├── jupyter_notebook_Script/
 │     └── Manufacturing_Defect_Detection_DeepLearning_CNN.ipynb
-
-
-
-
 ├── output/
-│     ├── 01_Data_Cleaning_inspection.docx
-│     ├── 02_DeepLearning_model_tensorflow.docx
-│     └── 03_DeepLearning_model_pytorch.docx
-├── plots/
-│     ├── Convergence_Curve_tf.png
-│     ├── Residual_Plot_pt.png
-│     ├── Residual_Plot_tf.png
-│     ├── training_validation_loss_tf.png
-│     ├── True_Actual_Demand_Forecast_pt.png
-│     └── True_Actual_Demand_Forecast_tf.png
-├── DL_model_pytorch.pkl
-├── DL_model_pytorch.pkl
+│     └── Manufacturing_Defect_Detection_DeepLearning_CNN.docx
+├── models/
+│     ├── best_model.pth
+│     ├── full_model.pth
+│     ├── model_weights.pth
+│     └── checkpoint.pth
 └── README.md
 
 ```

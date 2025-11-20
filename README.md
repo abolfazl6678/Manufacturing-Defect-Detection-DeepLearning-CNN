@@ -104,27 +104,21 @@ Manufacturing-Defect-Detection-DeepLearning-CNN/
 
 ---
 
-## Business Value ??? 
+## Business Value
 - **Automated defect detection** → faster, cheaper, and more consistent than manual inspection  
 - **Improved quality control** → reduces waste, rework, and warranty costs  
 - **Scalable AI solution** → applicable across different manufacturing lines and products  
 
 ---
-
 ## Future Work
-- Extend to **multi-class classification** (different defect types)
-
----
-
-
-- Try other deep learning methods for better accuracy  
-- Deploy model as an **API for real-time defect detection** in production lines  
-
+- Extend the model to multi-class classification to identify different types of manufacturing defects.
+- Develop a REST API and deploy the model to the cloud (AWS) for real-time, online defect detection.
+- Integrate with production pipelines to enable automated, scalable quality control.
+- Explore advanced CNN architectures (e.g., ResNet, EfficientNet) to improve accuracy and robustness.
 ---
 
 ## Acknowledgments
 - Dataset: [Casting Product Defect Dataset (Kaggle)](https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product)
-
 ---
 
 ## Author

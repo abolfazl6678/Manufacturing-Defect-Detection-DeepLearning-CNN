@@ -1,11 +1,11 @@
 # Manufacturing-Defect-Detection-DeepLearning-CNN
 
-In this project, a deep learning model using Convolutional Neural Networks (CNNs) is built to automate defect detection in products manufactured by casting. It improves quality control and redues costs. Casting Product Defect Dataset from Kaggle is used.
+In this project, a deep learning classificationmodel using Convolutional Neural Networks (CNNs) is built to automate defect detection in products manufactured by casting. It improves quality control and redues costs.
 
 ---
 
 ## Project Overview
-Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly. In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products. The goal is to build an AI-powered system that can distinguish between **defective** and **non-defective** parts using image data.
+Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly. In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products by casting process. The goal is to build an AI-powered system that can distinguish between **defective** and **non-defective** parts using image data.
 
 ---
 
@@ -24,22 +24,12 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
   - Deep Learning - Convolutional Neural Networks (CNN)
 ---
 
-## Dataset & Variables??? 
-The mode is built based on dataset provided in Kaggle (see Acknowledgments section please). It consists of two 
+## Dataset ??? 
 
-
-Each dataset contains labeled images of **good** and **defective** products, ideal for training CNNs.  
-
-
-The dataset was provided in Kaggle (see Acknowledgments section) and includes detailed of retail store inventory as a table named **retail_store_inventory** with below varaibles.
-
-
-
-
-
-
-
-
+- The dataset contains 7,348 images labeled as defective or non-defective.
+- All images are top-view photographs of submersible pump impellers, manufactured by casting.
+- Images are 300×300 pixels, grayscale, with data augmentation already applied.
+-  The dataset is organized into two main folders: `training` and `testing`. Each folder contains two subfolders: `ok_front` (non-defective) and `def_front` (defective).
 ---
 
 ## Model Approach ?? 
@@ -103,12 +93,10 @@ Manufacturing-Defect-Detection-DeepLearning-CNN/
 ```
 
 ---
-
 ## Business Value
 - **Automated defect detection** → faster, cheaper, and more consistent than manual inspection  
 - **Improved quality control** → reduces waste, rework, and warranty costs  
 - **Scalable AI solution** → applicable across different manufacturing lines and products  
-
 ---
 ## Future Work
 - Extend the model to multi-class classification to identify different types of manufacturing defects.

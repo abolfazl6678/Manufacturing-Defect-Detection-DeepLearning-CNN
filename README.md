@@ -9,7 +9,7 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
 
 ---
 
-## Problem Statement ?? 
+## Problem Statement
 - **Given product images from the manufacturing process, classify whether the product is defective or defect-free.**
 - This problem is formulated as a **binary image classification problem**.
 
@@ -24,7 +24,7 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
   - Deep Learning - Convolutional Neural Networks (CNN)
 ---
 
-## Dataset ??? 
+## Dataset
 
 - The dataset contains 7,348 images labeled as defective or non-defective.
 - All images are top-view photographs of submersible pump impellers, manufactured by casting.

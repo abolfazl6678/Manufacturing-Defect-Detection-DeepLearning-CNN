@@ -59,9 +59,17 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
 - **Recall** : 0.8931  
 - **F1-score** : 0.9017  
 - **Confusion Matrix** – defect vs non-defect predictions
-
 <img width="513" height="470" alt="Confusion_matrix" src="https://github.com/user-attachments/assets/f0bd085b-c3e9-4026-a95a-8d36363b1597" />
 
+## Classification Report
+|                     | Precision | Recall    |f1-score   | support   |
+|---------------------|-----------|-----------|-----------|-----------|
+| `Non-Defective`     | 0.94      | 0.95      | 0.94      | 453       |    
+| `Defective`         | 0.91      | 0.89      | 0.90      | 262       |
+| `         `         |           |           |           |           |
+| `accuracy`          |           |           | 0.93      | 715       |
+| `macro avg`         | 0.92      | 0.92      | 0.92      | 715       |
+| `weighted avg`      | 0.93      | 0.93      | 0.93      | 715       |
 
 ---
 

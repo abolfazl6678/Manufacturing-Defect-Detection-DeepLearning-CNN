@@ -34,18 +34,18 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
 
 ## Model Approach ?? 
 ### Preprocessing
-- Resize images for uniform input size  
-- Normalize pixel values  
-- Data augmentation (rotation, flips, contrast adjustment) to improve generalization  
+- Resize images for uniform input size
+- Turn images to greyscale 
+- Normalize pixel values
 
-### CNN Architecture
+### CNN Architecture ???
 - **Convolutional Layers** (Conv2D + ReLU) → extract spatial features  
 - **Pooling Layers** (MaxPooling) → reduce dimensionality  
 - **Flatten + Dense Layers** → learn feature interactions  
 - **Dropout** → prevent overfitting  
 - **Output Layer**: Sigmoid activation for binary classification  
 
-### Training Setup
+### Training Setup ??
 - Loss: Binary Cross-Entropy  
 - Optimizer: Adam  
 - Batch size: 32 / 64  
@@ -54,17 +54,26 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
 ---
 
 ## Evaluation Metrics ???
-- **Accuracy** – overall correctness  
-- **Precision & Recall** – crucial for quality control (minimizing false negatives)  
-- **F1-score** – balance of precision and recall  
-- **Confusion Matrix** – defect vs non-defect predictions  
+- **Accuracy** : 0.9287  
+- **Precision & Recall** : 0.9105
+- **Recall** : 0.8931  
+- **F1-score** : 0.9017  
+- **Confusion Matrix** – defect vs non-defect predictions
 
----
 
-## Results (to be updated after training) ???
-- Model accuracy and loss curves  
-- Confusion matrix and classification report  
-- Visualizations of predictions with Grad-CAM heatmaps (to explain CNN decisions)  
+
+Classification Report:
+               precision    recall  f1-score   support
+
+Non-Defective       0.94      0.95      0.94       453
+    Defective       0.91      0.89      0.90       262
+
+     accuracy                           0.93       715
+    macro avg       0.92      0.92      0.92       715
+ weighted avg       0.93      0.93      0.93       715
+
+<img width="513" height="470" alt="Confusion_matrix" src="https://github.com/user-attachments/assets/f0bd085b-c3e9-4026-a95a-8d36363b1597" />
+
 
 ---
 

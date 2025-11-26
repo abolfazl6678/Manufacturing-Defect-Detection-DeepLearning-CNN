@@ -18,7 +18,7 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
 ## Tools & Technique
 
 - **Programming Language:** Python
-- **Python Libraries:** Numpy, Pandas, Pytorch, optuna
+- **Python Libraries:** Numpy, Pandas, Pytorch, optuna, sklearn, matplotlib, seaborn
 - **Tool:** Google Colab with GPU, Git/GitHub
 - **Technique:**
   - Deep Learning - Convolutional Neural Networks (CNN)

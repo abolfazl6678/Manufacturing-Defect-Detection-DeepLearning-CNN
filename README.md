@@ -38,7 +38,7 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
 - Turn images to greyscale 
 - Normalize pixel values
 
-### CNN Architecture ???
+### CNN Architecture
 - **Convolutional Layers and Batch normalization** → (Conv2D + Batch normalization) + (Conv2D + Batch normalization)   
 - **Pooling Layers** → (MaxPooling)
 - **Dropout** → prevent overfitting  

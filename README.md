@@ -100,10 +100,8 @@ Manufacturing-Defect-Detection-DeepLearning-CNN/
 ├── output/
 │     └── Manufacturing_Defect_Detection_DeepLearning_CNN.docx
 ├── models/
-│     ├── best_model.pth
 │     ├── full_model.pth
-│     ├── model_weights.pth
-│     └── checkpoint.pth
+│     └── model_weights.pth
 └── README.md
 
 ```

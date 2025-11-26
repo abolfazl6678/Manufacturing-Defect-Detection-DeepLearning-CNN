@@ -50,9 +50,9 @@ In this project, a deep learning classification model using Convolutional Neural
 - **activation function** → relu
 
 ### Model hyperparamters obtained from optuna (optimized)
--**early stopping is used**
--**max trials:** 5
--  **conv filters:** 32  
+- **early stopping is used**
+- **max trials:** 5
+- **conv filters:** 32  
 - **dense units:** 64
 - **dropout rate:** 0.3075665173910642
 - **learning rate:** 0.0006482971515191023

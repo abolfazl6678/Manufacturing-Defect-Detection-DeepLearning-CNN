@@ -1,11 +1,14 @@
 # Manufacturing-Defect-Detection-DeepLearning-CNN
 
-In this project, a deep learning classificationmodel using Convolutional Neural Networks (CNNs) is built to automate defect detection in products manufactured by casting. It improves quality control and redues costs.
+In this project, a deep learning classification model using Convolutional Neural Networks (CNNs) is built to automate defect detection in products manufactured by casting. It improves quality control and redues costs.
 
 ---
 
 ## Project Overview
-Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly. In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products by casting process. The goal is to build an AI-powered system that can distinguish between **defective** and **non-defective** parts using image data.
+- Quality control is a crucial part of manufacturing. Traditional defect detection methods rely on manual inspection, which is time-consuming, inconsistent, and costly.
+- In this project, I apply **Deep Learning with Convolutional Neural Networks (CNNs)** to automate defect detection in manufactured products by casting process.
+- The goal is to build an AI-powered model that can distinguish between **defective** and **non-defective** parts using image data.
+- The developed model has been saved in several format for differnt laoding purposes.
 
 ---
 

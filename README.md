@@ -32,28 +32,37 @@ Quality control is a crucial part of manufacturing. Traditional defect detection
 -  The dataset is organized into two main folders: `training` and `testing`. Each folder contains two subfolders: `ok_front` (non-defective) and `def_front` (defective).
 ---
 
-## Model Approach ?? 
+## Model Approach
 ### Preprocessing
 - Resize images for uniform input size
 - Turn images to greyscale 
 - Normalize pixel values
 
 ### CNN Architecture ???
-- **Convolutional Layers** (Conv2D + ReLU) → extract spatial features  
-- **Pooling Layers** (MaxPooling) → reduce dimensionality  
-- **Flatten + Dense Layers** → learn feature interactions  
+- **Convolutional Layers and Batch normalization** → (Conv2D + Batch normalization) + (Conv2D + Batch normalization)   
+- **Pooling Layers** → (MaxPooling)
 - **Dropout** → prevent overfitting  
-- **Output Layer**: Sigmoid activation for binary classification  
+- **Flatten + Dense Layers**
+- **Output Layer** → Sigmoid activation for binary classification
+- **activation function** → relu
 
-### Training Setup ??
-- Loss: Binary Cross-Entropy  
-- Optimizer: Adam  
-- Batch size: 32 / 64  
-- Epochs: 20–50 (with early stopping)  
+### Model hyperparamters obtained from optuna (optimized)
+-**early stopping is used**
+-**max trials:** 5
+-  **conv filters:** 32  
+- **dense units:** 64
+- **dropout rate:** 0.3075665173910642
+- **learning rate:** 0.0006482971515191023
+- **batch size:** 64
+
+### Training Setup
+- **Loss:** Cross-Entropy  
+- **Optimizer:** Adam 
+- **Epochs:** 10 (with early stopping)  
 
 ---
 
-## Evaluation Metrics ???
+## Evaluation Metrics
 - **Accuracy** : 0.9287  
 - **Precision & Recall** : 0.9105
 - **Recall** : 0.8931  
